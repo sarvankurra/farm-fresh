@@ -1,0 +1,171 @@
+	.top-bar
+{
+	top: 0px;
+	position: fixed;
+	height: 30px;
+	background-color: whitesmoke;
+	width: 100%;
+}
+header
+{
+	height: 90px; 
+	background-color:#1F1F1F;
+	position: fixed;
+	width: 100%;
+	top: 30px;
+	z-index: 2000;
+	 backdrop-filter: blur(8px);
+}
+body 
+{
+	background-color: #fafafa;
+	padding-top: 120px;
+	
+	
+}
+.logo 
+{
+   width: 180px;
+   height: 100px;
+   display: block;
+}
+nav 
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 2px solid black;
+	padding: 0px 20px;
+	height: 100%;
+}
+nav >a 
+{
+	display: block;
+}
+.search-bar
+{
+	margin-left: 30px;
+
+}
+.search-bar input 
+{
+	width: 400px;
+	height: 30px ;
+	border: 2px solid gray;
+	border-radius: 5px;
+}
+.search-bar button
+{
+	border: none;
+	width:30px;
+	height: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: green;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.menu
+{
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	margin-right: 10px;
+}
+.menu a 
+{
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	 transition: 0.6s;
+
+}
+.menu a:hover{
+	color: green;
+	 transform: scale(1.2);
+}
+form a {
+	text-decoration: none;
+	color: black;
+}
+form a:hover {
+	color: green;
+
+}
+main  {
+	display: flex;
+	    justify-content: center;   /* Horizontal */
+    align-items: center; 
+
+	 
+}
+.center
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
+	width: 350px;
+	border-radius: 10px;
+	box-shadow:0 5px 15px rgba(0,0,0,.2) ;
+	margin-bottom: 30px;
+	padding: 30px;
+	 
+}
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    
+}
+.he 
+{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	
+}
+label{
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.but{
+        padding:12px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    width: 180px;
+    margin: 0px auto;
+    
+
+
+}
+.signup-btn{
+    background:white;
+    color:green;
+    border:2px solid green;
+}
+.center h3{
+    margin-bottom:15px;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+input 
+{
+	height: 30px;
+	padding: 8px;
+}
